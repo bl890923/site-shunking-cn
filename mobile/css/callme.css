@@ -1,0 +1,95 @@
+/* call */
+.call {
+  width: 100%;
+  /* height: 800px; */
+  /* background-color: #393939; */
+  background-image: url(../images/call_02.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.kong::before {
+  display: block;
+  content: "";
+  height: 248px;
+  width: 100%;
+}
+.call-con {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+.call-con > div {
+  margin-bottom: 35px;
+  width: 47%;
+}
+.call-con > div img {
+  max-width: 100%;
+  min-width: 100%;
+}
+/* call end */
+
+/* map */
+.map {
+  margin: 0 auto;
+  padding: 20px 0;
+  width: 100%;
+}
+.map > div {
+  margin: 0 auto;
+}
+.iw_poi_title {
+  color: #cc5522;
+  font-size: 14px;
+  font-weight: bold;
+  overflow: hidden;
+  padding-right: 13px;
+  white-space: nowrap;
+}
+.iw_poi_content {
+  font: 12px arial, sans-serif;
+  overflow: visible;
+  padding-top: 4px;
+  white-space: -moz-pre-wrap;
+  word-wrap: break-word;
+}
+/* map end */
+
+/* call-title */
+.call-title {
+  margin: 0 auto;
+  text-align: center;
+  padding: 90px 0 50px;
+  /* height: 147px; */
+  box-sizing: border-box;
+  /* padding-top: 40px; */
+}
+.call-title .top_en {
+  font-family: 张海山锐线体简;
+  color: #bababa;
+  font-size: 30px;
+  line-height: 100%;
+  margin-bottom: 16px;
+}
+.call-title .top_cn span {
+  color: #222;
+  font-size: 36px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #b6b9bf;
+}
+.call-title .top_cn span b {
+  background: url(../images/top_enline.jpg) no-repeat bottom;
+  padding-bottom: 14px;
+  color: #fffffd;
+}
+.call-title .top_cn span b.black {
+  color: #000;
+}
+.call-title .top_fn {
+  padding-top: 60px;
+  font-size: 14px;
+}
+/* call-title end */

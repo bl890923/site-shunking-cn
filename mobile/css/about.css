@@ -1,0 +1,97 @@
+/* about */
+.about{
+  width: 100%;
+  height: 1290px;
+  background-image: url(../images/about.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  position: relative;
+  z-index: 10;
+}
+.about p{
+  font-size: 25px;
+  line-height: 38px;
+  color: #fff;
+  text-indent: 50px;
+}
+.about>div{
+  padding: 88px 30px 0;
+}
+.about>div:nth-child(1){
+  padding-top: 26%;
+}
+/* about end */
+
+/* card */
+.card{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  margin-top: -120px;
+  background-color: #e4e4e4;
+}
+.card div{
+  position: relative;
+  z-index: 11;
+}
+/* card end */
+
+/* content */
+.content{
+  background-color: #e4e4e4;
+  padding: 20px 33px;
+}
+.content p{
+  font-size: 22px;
+  line-height: 38px;
+  padding: 25px 0;
+  color: #2f2725;
+}
+.content>div:not(:nth-child(1)){
+  display: none;
+}
+/* content end */
+
+
+/* service */
+.service{
+  width: 100%;
+  height: 460px;
+  background-image: url(../images/service_04.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+/* service end */
+
+/* yuangong */
+.yg{
+  background-image: url(../images/yuangong_04.jpg);
+  background-position-x: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 60px 30px;
+}
+.yg .flex{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+.yg>div{
+  width: 234px;
+}
+.photo{
+  width: 234px;
+  height: 234px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.m-font{
+  text-align: center;
+  color: #fff;
+  font-size: 22px;
+}
+/* yuangong end */

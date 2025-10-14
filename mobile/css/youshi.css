@@ -1,0 +1,70 @@
+/* y-content */
+.y-content{
+  width: 100%;
+  /* padding-bottom: 30px; */
+  background-image: url(../images/youshi_02.jpg);
+  background-position-x: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  /* padding-top: 290px; */
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  /* padding-top: 40px; */
+  padding: 40px 10px 30px;
+  box-sizing: border-box;
+}
+.y-content>div{
+  width: 47%;
+  margin-bottom: 30px;
+  display: flex;
+}
+.y-content>div>div{
+  width: 50%;
+  background-color: #6f6f6f;
+}
+.y-content>div>div>img{
+  max-width: 100%;
+  min-width: 100%;
+}
+.y-content>div>div>p{
+  font-size: 25px;
+  color: #fff;
+  padding: 0 15px;
+  text-align: center;
+  position: relative;
+  top:50%;
+  transform:translateY(-50%);
+}
+.youshi-title{
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 90px 0 50px;
+  /* height: 147px; */
+  box-sizing: border-box;
+  padding-top: 40px;
+}
+.top_en {
+  font-family: 张海山锐线体简;
+  color: #bababa;
+  font-size: 30px;
+  line-height: 100%;
+  margin-bottom: 16px;
+}
+.top_cn span {
+  color: #222;
+  font-size: 36px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #b6b9bf;
+}
+.top_cn span b {
+  background: url(../images/ab_topline.jpg) no-repeat bottom;
+  padding-bottom: 14px;
+  color: #fffffd;
+}
+.top_cn span b.black {
+  color: #000;
+}
+/* y-content end */

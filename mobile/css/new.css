@@ -1,0 +1,27 @@
+/* news */
+.news {
+  padding: 0 30px;
+  margin: 0 auto;
+}
+.news-title {
+  padding-top: 70px;
+  border-bottom: 1px dashed gray;
+}
+.news-title h3 {
+  font-size: 35px;
+  height: 35px;
+  color: #000;
+  text-align: center;
+}
+.news-title p {
+  font-size: 25px;
+  text-align: right;
+  height: 80px;
+  line-height: 80px;
+}
+.news-con {
+  padding: 30px 20px 0 20px;
+  font-size: 25px;
+  line-height: 37.5px;
+}
+/* news end */
