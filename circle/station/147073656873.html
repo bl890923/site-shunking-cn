@@ -1,0 +1,268 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="initial-scale=0.5,maximum-scale=0.5,minimum-scale=0.5,user-scalable=yes"/>
+<script type="text/javascript" src="/mobile/js/pagemode.js"></script>
+<title>分页式设计和瀑布流滚动设计对于网站信息量大该如何选择？ - 成都舜王科技有限公司互联网事业部</title>
+<meta name="keywords" content="成都网站建设,分页式设计和瀑布流滚动设计对于网站信息量大该如何选择？," />
+<meta name="description" content="分页式设计和瀑布流滚动设计对于网站信息量大该如何选择？,    当页面内容信息很多时，设计上应该使用分页，还是瀑布流无限滚动的方式呢？今天这篇好文详细分析了各大信息流网站（谷歌、Pinterest、淘宝）的做法，列举了这两种方式的优缺点和适" />
+<link rel="stylesheet" type="text/css" href="https://img.shunking.cn/site/css/common.css"/>
+<link rel="stylesheet" type="text/css" href="https://img.shunking.cn/site/css/style.css"/>
+<link rel="shortcut icon" href="/favicon.ico" />
+</head>
+<body>
+    <div id="header" class="header">
+        <div class="logo fl"><a href="/"><img width="310" height="70" alt="舜王科技" src="https://img.shunking.cn/site/images/logo.png"/></a></div>
+        <div class="h_r fr">
+            <div class="nav fl">
+                <ul>
+                   <li >
+                        <p>
+                            <a href="/">首页<span>Home</span></a>
+                        </p>
+                    </li><li >
+                        <p>
+                            <a href="/case/">案例<span>Case</span></a>
+                        </p>
+                    </li><li >
+                        <p>
+                            <a href="/server/">服务<span>Service</span></a>
+                        </p>
+                    </li><li >
+                        <p>
+                            <a href="/advantage/">优势<span>Advantage</span></a>
+                        </p>
+                    </li><li >
+                        <p>
+                            <a href="/circle/">资讯<span>News</span></a>
+                        </p>
+                    </li><li >
+                        <p>
+                            <a href="/about/">关于<span>About</span></a>
+                        </p>
+                    </li><li >
+                        <p>
+                            <a href="/contact/">联络<span>Contact</span></a>
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <div class="h_click fl">
+                <ul>
+                    <li class="h_tel"><img width="32" height="32" alt="" src="https://img.shunking.cn/site/images/h_img1.png"/><span>400-028-1238</span></li>
+                    <!--<li><a href="" target="_blank" title=""><img width="32" height="32" alt="" src="https://img.shunking.cn/site/images/h_img2.png"/></a></li>
+                    <li><a href="" title=""><img width="32" height="32" alt="" src="https://img.shunking.cn/site/images/h_img3.png"/></a></li>-->
+                    <li>
+                        <a target="" title="客服一部" href="tencent://message/?uin=713050900&amp;Menu=yes"><img width="32" height="32" alt="" src="https://img.shunking.cn/site/images/QQ_QZ.png"/></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--头部公用-end-->
+   <link rel="stylesheet" type="text/css" href="https://img.shunking.cn/site/css/mobile.css">
+<div id="blog">
+  <div class="blog_c wd1100">
+    <div class="blog_l fl">
+      <div class="position"> <a href="/">首页</a>&nbsp;>&nbsp;<a href="/circle/">资讯</a>&nbsp;>&nbsp;<a href="/circle/station/">建站知识</a> &gt;<span><a href="/circle/station/147073656873.html">分页式设计和瀑布流滚动设计对于网站信息量大该如何选择？</a></span> </div>
+      <div class="blog_title"><span>分页式设计和瀑布流滚动设计对于网站信息量大该如何选择？</span></div>
+      <div class="share fl"> 
+      </div>
+      <div class="blog_infor fr"> <span>2016-08-09 /</span> <span>建站知识</span></div>
+      <div class="content cl"> <p>&nbsp;</p>
+<embed id="xunlei_com_thunder_helper_plugin_d462f475-c18e-46be-bd10-327458d045bd" type="application/thunder_download_plugin" height="0" width="0"></embed>
+<p><embed id="xunlei_com_thunder_helper_plugin_d462f475-c18e-46be-bd10-327458d045bd" type="application/thunder_download_plugin" height="0" width="0" style="font-family: sans-serif; font-size: 16px;"></embed></p>
+<p style="margin: 5px 0px; font-family: sans-serif; font-size: 16px;">&nbsp; &nbsp;当页面内容信息很多时，设计上应该使用分页，还是瀑布流无限滚动的方式呢？今天这篇好文详细分析了各大信息流网站（谷歌、Pinterest、淘宝）的做法，列举了这两种方式的优缺点和适用场景。一篇精悍简练的干货文，来收！</p>
+<p style="margin: 5px 0px; font-family: sans-serif; font-size: 16px;">前阵子工作中，刚好有做到Log历史纪录的设计，窗体应该要采用哪种设计策略，也引起一阵讨论。无论是电子商务网站、搜寻结果、图片浏览、历史纪录等等，只要是内容信息量大时，设计师总是会面对到同样的问题。</p>
+<p style="margin: 5px 0px; font-family: sans-serif; font-size: 16px;">来看看Google的设计，它在一般搜寻时，采用Pagination（页码）的方式，可是在图片搜寻时，却使用Infinite scroll（无限滚动，瀑布流）。为什么会有如此的差异呢？</p>
+<p style="margin: 5px 0px; font-family: sans-serif; font-size: 16px;">其实pagination和Infinite scroll有各自的特性，适合在不同的情境。Pagination把数据分成一页一页，下方有页数或是指示可以点击换页，让人有停顿的时间。而 Infinite scroll则是将内容都放在同一页，当滚轮滚到页面下方时，会自动加载新的内容，无需点击换页。</p>
+<p style="margin: 5px 0px; font-family: sans-serif; font-size: 16px;">简单分析一下Infinite scroll的优缺点</p>
+<p style="margin: 5px 0px; font-family: sans-serif; font-size: 16px;">Infinite Scroll 优点</p>
+<p style="margin: 5px 0px; font-family: sans-serif; font-size: 16px;">1. 流畅的体验，可以持续浏览内容：</p>
+<p style="margin: 5px 0px; font-family: sans-serif; font-size: 16px;">在滚轮滚动的同时，背后也悄悄开始预载窗口下方的内容，用户可以无缝阅览，比较容易沉浸其中，不像pagination，点击完下一页之后，需等待 页面载入。 它其实适合运用在没有特定目的的活动上，无聊的时候，可以打发时间的随意浏览，例如Facebook News Feed。</p>
+<p style="margin: 5px 0px; font-family: sans-serif; font-size: 16px;">Infinite Scroll架构也相对扁平，适合展示相同阶层架构的东西，而图片就是最好的内容物，因为视觉的信息比较文字更快被人所接收，我们总是能很扫射完图 片，Pinterest就是利用Infinite Scroll的特点，不停给予各式图片，供设计师快速找寻灵感、给予源源不绝的刺激。</p>
+<p style="margin: 5px 0px; font-family: sans-serif; font-size: 16px;">2. 操作简易快速：</p>
+<p style="margin: 5px 0px; font-family: sans-serif; font-size: 16px;">不用过多瞄准点击的操作，只需滚动，就能有新的内容，操作效率较佳。而且在手机上，scroll浏览也比点击来得方便。</p>
+<p style="margin: 5px 0px; font-family: sans-serif; font-size: 16px;">Infinite Scroll 缺点</p>
+<p style="margin: 5px 0px; font-family: sans-serif; font-size: 16px;">1. 难以回溯、确认数据位置：</p>
+<p style="margin: 5px 0px; font-family: sans-serif; font-size: 16px;">在一个超长的页面中，如果要再往回找自己之前看过的东西，会很难寻找，不知道它的位置，不像pagination，可以记得内容是在第几页。</p>
+<p style="margin: 5px 0px; font-family: sans-serif; font-size: 16px;">2. 找寻想要的特定信息时，较无效率：</p>
+<p style="margin: 5px 0px; font-family: sans-serif; font-size: 16px;">无法略过不必要的内容，直接跳页看。自己在拍卖网站购买物品的经验是，下完关键词，选择价格排序后，往往最前面几笔和最后面几笔的数据，基本上都是 和自己想买的对象不相关(有些卖家故意会用0元或99999999元，争取最佳排序位置)，这时候可以跳页就变得重要，当然多下一些过滤，也可以帮助找到 数据。</p>
+<p style="margin: 5px 0px; font-family: sans-serif; font-size: 16px;">3. 占用浏览器过多的资源：</p>
+<p style="margin: 5px 0px; font-family: sans-serif; font-size: 16px;">单一个页面中，不停加载新的内容，容易导致浏览器负荷过高，网页效能降低。</p>
+<p style="margin: 5px 0px; font-family: sans-serif; font-size: 16px;">4. Scroll bar的长短及位置，无法正确表达内容长短：</p>
+<p style="margin: 5px 0px; font-family: sans-serif; font-size: 16px;">过去还没有infinite scroll时，无论是网页，或是desktop software，Scroll bar长度具有暗示数据内容多寡的效用，我们也会看scroll bar的位置，去了解还剩下多少数据在下方未读。但Infinite scroll因为页面长度会随着scroll行为不停增长，scroll bar长度和位置会不停变化，失去提示作用。</p>
+<p style="margin: 5px 0px; font-family: sans-serif; font-size: 16px;">5. Footer（页脚）变得很难使用，甚至无法使用：</p>
+<p style="margin: 5px 0px; font-family: sans-serif; font-size: 16px;">当滚轮滚动时，页面会自动加载更多内容，把Footer再往下推，消失于窗口中。常常有这样的经验，原本想要阅读Footer的信息，结果看到一 半，就被加载的信息推走，我又往下scroll，然后又再度被推走，整个无法控制。有兴趣的朋友，可以试着和Dribbble Designers页面，与Footer玩追逐战。</p>
+<p style="margin: 5px 0px; font-family: sans-serif; font-size: 16px;">不过其实为了解决上述问题，Load more按钮会是一个解法。当Scroll到底，网页加载一定数量的东西后，便不再自动加载，必须按Load more，才会又再一轮的载入。这可以解决无法在一定数量内，来回观看、占用过多浏览器资源、Footer无法使用等问题。</p>
+<p style="margin: 5px 0px; font-family: sans-serif; font-size: 16px;">Pagination优点</p>
+<p style="margin: 5px 0px; font-family: sans-serif; font-size: 16px;">1. 双向互动，让使用者有时间思索、决策：</p>
+<p style="margin: 5px 0px; font-family: sans-serif; font-size: 16px;">阅览完一页后，因为还要点击下一页的关系，有机会停顿一下，使用者有个喘息的机会，去思考是否还要继续看下一页。不像infinite scroll，一直出现新的内容，不停被喂养信息。</p>
+<p style="margin: 5px 0px; font-family: sans-serif; font-size: 16px;">2. 给予使用者较佳的控制感：</p>
+<p style="margin: 5px 0px; font-family: sans-serif; font-size: 16px;">在找寻时，pagnation的分页，会让使用者知道已经找了几页。有研究指出到达页面底端时，有种任务达到一个段落的感觉，会让使用者有种愉悦的成就感和控制感。</p>
+<p style="margin: 5px 0px; font-family: sans-serif; font-size: 16px;">3. 快速查找过往信息：</p>
+<p style="margin: 5px 0px; font-family: sans-serif; font-size: 16px;">相信大家都有过找寻一些历史消息的经验，可能找了几页数据，我们就可能10页10页这样跳，大概会抓说可能10页就是几天的讯息，可能可以利用页 数，大概抓到资料会在第几页哪个位置。但是infinite scroll就无法做到这件事了，如果要找比较远的数据，就必须一直scroll到底再等待加载，中间加载了许多我们不需要的信息，就为了看比较久远的数 据，强迫我们必须经历那个过程。</p>
+<p style="margin: 5px 0px; font-family: sans-serif; font-size: 16px;">另外，有时候我们查找一些数据，需要再跳回去看的时候，我们大概会依稀记得之前看到的数据，大概会是在第几页，除了帮助记忆外，可以让我们可以更快 跳到想要的内容上。Infinite scroll因为scroll bar长度及位置的不停变动，无法像pagniation易于定位。</p>
+<p style="margin: 5px 0px; font-family: sans-serif; font-size: 16px;">结论</p>
+<p style="margin: 5px 0px; font-family: sans-serif; font-size: 16px;">Pagination和Infinite scroll有各自的优缺点，运用在适当的情境时，可以将优点及大化，缺点甚至会转为优点。Pagination是比较常见的设计，因为需要点击才有下页 内容，让人有停顿的时间，适合用在目标导向、一些需要思考决策、有目的性的活动，例如搜寻商品，或是找寻数据。</p>
+<p style="margin: 5px 0px; font-family: sans-serif; font-size: 16px;">而Infinite scroll适合快速且随意浏览的情境，也因为结构较为扁平，适合放同性质的内容。由使用者产生的内容（例如：Facebook、Twitter）以及图 片内容（如：Pinterest、Dribbble）都相当适合Infinite scroll，而面对较差的控制感、浏览器负荷高等缺点，能以Load more按钮，作为折衷的办法。</p>
+<p style="margin: 5px 0px; font-family: sans-serif; font-size: 16px;">再回过头看最初的问题，历史纪录应该用pagination还是infinite scroll？ 或许一开始数据量不大的时候，infinite scroll是好用的，可是当数据量慢慢累积，需要好几页的内容时，为了找寻特定目标的需要，pagination会是比较好的选择。</p>
+<p style="margin: 5px 0px; font-family: sans-serif; font-size: 16px;">电子商务究竟较适合Pagination还是Infinite Scroll呢？</p>
+<p style="margin: 5px 0px; font-family: sans-serif; font-size: 16px;">我认为，要看情境做判断。如果今天这个购物网站，比较像是让人能快速找到所需物品，使用者知道自己要买什么，买了就走，功能性取向的，就使用 Pagination较为合适。但如果今天的购物网站，是想要营造逛街购物的氛围，让使用者随意看看，激起购物欲望，那么或许Infinite scroll也是可以考虑的，只是最好能在每个商品的Tile上，能有我的最爱功能，点击爱心之后，可以收藏起来，避免最后找不到自己心动的商品。</p>
+<p style="margin: 5px 0px; font-family: sans-serif; font-size: 16px;">其实有研究指出，pagination会拖慢浏览速度，也会让用户懒得点击去看其他页面的产品，降低产品曝光度。不过另外一方面，使用 Pagination，会让使用者花比较多的时间在第一页。当我们知道这些现象的时候，其实就可以运用一些策略手法，把看似缺点变成优点。例如使用 Pagination，多数人都停在第一页，这时候，第一页就可以放主打商品。</p>
+<p style="margin: 5px 0px; font-family: sans-serif; font-size: 16px;">另外，无论是Pagination或是Infinite Scroll with Load More button都会面对一个问题，就是究竟Pagination的一页或Infinite scroll 出现按钮的长度应该要多长，要放多少东西，才是适宜的？这也是值得探讨的议题。</p>
+<p style="margin: 5px 0px; font-family: sans-serif; font-size: 16px;">有文章指出，在电子商务的情境下运用Infinite scroll，从产品类别点进去看的商品，可以列出50-100项产品，再出现Load more按钮，但如果是搜寻结果，则建议25&ndash;75项，在手机上，则是因为屏幕的限制，建议15&ndash;30项商品即可。</p>
+<p style="margin: 5px 0px; font-family: sans-serif; font-size: 16px;">同样是电子商务，简单看了一下市面上的网络购物平台，运用Pagination的平台，一页也是50&ndash;100个物件间。</p>
+<p style="margin: 5px 0px; font-family: sans-serif; font-size: 16px;">如果今天情境转为非电子商务平台，又会是什么结果呢？还可以再多做探索与研究。</p>
+<p style="margin: 5px 0px; font-family: sans-serif; font-size: 16px; text-align: right;"><strong>舜王科技企业文化部 &nbsp; 采编</strong></p>
+<p style="margin: 5px 0px; font-family: sans-serif; font-size: 16px; text-align: right;"><strong>2016年8月9日</strong></p> </div>
+    </div>
+    <div class="blog_r fr">
+  <div class="blog_Rask"> <span class="blog_dif">【舜王与众不同】</span>凭借对设计的热爱和执着，互联网营销趋势的敏锐洞察和深刻理解，与众多同行不同的是，舜王更注重与客户互促共生，价值同在。 </div>
+  <div class="blog_Rcont">本站所有内容若需转载请<a href="/contact/" title="联系我们">联系我们。</a></div>
+  <div class="blog_Rbox">
+    <div class="blog_Rtop">
+      <h3>资讯分类</h3>
+    </div>
+    <div class="blog_chnal">
+      <ul>
+        <li><a href="/circle/company/" title="公司新闻">公司新闻<span></span></a></li>
+        <li><a href="/circle/station/" title="建站知识">建站知识<span></span></a></li>
+        <li><a href="/circle/network/" title="网络学堂">网络学堂<span></span></a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="blog_Rbox">
+    <div class="blog_Rtop">
+      <h3>热门资讯</h3>
+    </div>
+    <div class="blog_hot">
+      <ul>
+                <li> <a href="/circle/company/1620285185289.html" target="_blank">
+          关于郑州联通机房意外断网的通知！          </a> </li>
+                <li> <a href="/circle/company/1619877818288.html" target="_blank">
+          2021年五一劳动节放假通知          </a> </li>
+                <li> <a href="/circle/network/1597825071287.html" target="_blank">
+          成都办理400电话需要提供什么资料？          </a> </li>
+                <li> <a href="/circle/network/1597824842286.html" target="_blank">
+          舜王科技400电话的资费是怎么计算的？          </a> </li>
+                <li> <a href="/circle/network/1597824626285.html" target="_blank">
+          德国特曼特石油化工集团进军中国大陆市场          </a> </li>
+                <li> <a href="/circle/network/1597649806284.html" target="_blank">
+          5G是Apple最终设计其所有处理器的原因          </a> </li>
+                <li> <a href="/circle/network/1597649198283.html" target="_blank">
+          中国汽车销量开始回升          </a> </li>
+                <li> <a href="/circle/network/1597648338282.html" target="_blank">
+          硬盘驱动器季度业绩和预测          </a> </li>
+                <li> <a href="/circle/network/1597647369281.html" target="_blank">
+          英特尔准备通过Optane赚钱吗？          </a> </li>
+                <li> <a href="/circle/network/1597646387280.html" target="_blank">
+          ``一带一路`` 首屈一指的白象内部：马六甲门户          </a> </li>
+                <li> <a href="/circle/network/1597589126279.html" target="_blank">
+          唐纳德·特朗普总统的弟弟罗伯特享年72岁          </a> </li>
+                <li> <a href="/circle/network/1597509668278.html" target="_blank">
+          相机大战：小米Mi 10 Ultra Vs. 三星Galaxy Note 20 Ultra          </a> </li>
+                <li> <a href="/circle/network/1597509513277.html" target="_blank">
+          特朗普的微信禁令使腾讯的其他美国投资面临风险          </a> </li>
+                <li> <a href="/circle/network/1596564137276.html" target="_blank">
+          医疗网站建设如何才能做的发挥作用？          </a> </li>
+                <li> <a href="/circle/network/1596563825275.html" target="_blank">
+          小企业搜索引擎优化：在谷歌网站排名的七个技巧          </a> </li>
+                <li> <a href="/circle/network/1596563409274.html" target="_blank">
+          现在比以往任何时候都更需要一种领导文化          </a> </li>
+              </ul>
+    </div>
+  </div>
+  <div class="blog_Rbox">
+    <div class="blog_Rtop">
+      <h3>热门标签</h3>
+    </div>
+    <div class="blog_tags"> <a href="/%E6%88%90%E9%83%BD%E9%AB%98%E7%AB%AF%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE-0.html" target="_blank">成都高端网站建设</a>  <a href="/%E7%BD%91%E7%AB%99%E4%BC%98%E5%8C%96-0.html" target="_blank">网站优化</a>  <a href="/%E7%BD%91%E7%AB%99%E8%AE%BE%E8%AE%A1-0.html" target="_blank">网站设计</a>  <a href="/%E6%88%90%E9%83%BD%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE-0.html" target="_blank">成都网站建设</a>  <a href="/%E6%88%90%E9%83%BD%E7%BD%91%E7%AB%99%E8%AE%BE%E8%AE%A1-0.html" target="_blank">成都网站设计</a>  <a href="/%E6%88%90%E9%83%BD%E8%90%A5%E9%94%80%E5%9E%8B%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE-0.html" target="_blank">成都营销型网站建设</a>  <a href="/%E6%88%90%E9%83%BD%E9%AB%98%E7%AB%AF%E7%BD%91%E7%AB%99%E8%AE%BE%E8%AE%A1-0.html" target="_blank">成都高端网站设计</a> </div>
+  </div>
+</div>
+ </div>
+</div>
+<!--底部-start--> 
+<div class="footer cl">
+<div class="foot_top wd1100">
+<div class="love_link">
+<a href="https://www.shunking.cn" title="舜王科技" target="_blank">舜王科技</a> 
+<a href="/" title="舜王建站" target="_blank">舜王建站</a> 
+<a href="https://www.site.shunking.cn/成都网站建设-0.html" title="成都网站建设" target="_blank">成都网站建设</a> 
+<a href="https://www.site.shunking.cn/成都营销型网站建设-0.html" title="成都营销型网站建设" target="_blank">成都营销型网站建设</a> 
+<a href="https://www.site.shunking.cn/成都网站设计-0.html" title="成都网站设计" target="_blank">成都网站设计</a> 
+<a href="https://www.site.shunking.cn/网站设计-0.html" title="网站设计" target="_blank">网站设计</a> 
+<a href="https://www.site.shunking.cn/成都高端网站设计-0.html" title="成都高端网站设计" target="_blank">成都高端网站设计</a> 
+<a href="https://www.site.shunking.cn/网站优化-0.html" title="网站优化" target="_blank">网站优化</a> 
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1256071737'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/stat.php%3Fid%3D1256071737' type='text/javascript'%3E%3C/script%3E"));</script>
+</div>
+</div>
+<div class="foot_d">
+<div class="foot_down wd1100">
+<div class="foot_dshare">
+<a href="" target="_blank" class="foot_dshare1"></a>
+<a href="" class="foot_dshare2"></a>
+<a href="" class="foot_dshare3"></a>
+<div class="foot_shWx"><img width="80" height="80" alt="舜王科技官方微信" src="https://img.shunking.cn/site/images/wx_img.jpg"/></div>
+<div class="foot_shTelWx"><img width="80" height="80" alt="舜王科技官方二维码" src="https://img.shunking.cn/site/images/wx_img.jpg"/></div>
+</div>
+<div class="copyright">
+<a href="http://www.beian.miit.gov.cn/" target="_blank">蜀ICP备16023211号</a> &nbsp;&nbsp;
+<a>川作登字-2019-F-00037252</a>&nbsp; &nbsp;
+<a>商标第28371398号</a>&nbsp; &nbsp;
+<a>立信企业第350653722号</a>&nbsp; &nbsp;
+<a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=51010802000011" target="_blank">川公网安备 51010802000011号 </a>&nbsp;&nbsp;
+<a>川工商网备 51010820160425082720号</a>
+<br/>
+Copyright &copy; 2015-2020成都舜王科技有限公司互联网事业部 版权所有,违者必究！ &nbsp;&nbsp;网站维护单位：成都舜王科技有限公司企业文化部
+<br/>
+
+<noscript> 
+</noscript>
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?1e6278051c4156bbcfc97fe94d6c3bbe";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+<script>
+(function(para) {
+    var p = para.sdk_url, n = 'huoYan', w = window, d = document, s = 'script',x = null,y = null;
+    if(typeof(w['huoyanDataAnalytic']) !== 'undefined') {return false;}
+    w['huoyanDataAnalytic'] = n;
+    w[n] = w[n] || function(a) {return function() {(w[n]._q = w[n]._q || []).push([a, arguments]);}};
+    w[n]['quick'] = w[n].call(null, 'quick');
+    w[n]['search'] = w[n].call(null, 'search');
+    x = d.createElement(s), y = d.getElementsByTagName(s)[0];x.async = 1;
+    x.src = p;w[n].para = para;y.parentNode.insertBefore(x, y);
+    })({
+    sdk_url: 'https://identify.tankeai.com/assets/js/identify.js',
+    server_url: 'https://identify.tankeai.com'
+});
+var g_huoyan_opt = {
+    site_id : 1088,
+    user_company:1216
+};
+huoYan.quick('autoTrack',g_huoyan_opt);
+</script>
+
+
+</div>
+</div>
+</div>
+</div> 
+<!--底部-end--> 
+<!--浮动qq-start--> 
+<!--服务公共浮动-start--> 
+<script src="https://img.shunking.cn/site/js/jquery-1.7.min.js"></script> 
+<script src="https://img.shunking.cn/site/js/jquery.queryloader2.js"></script> 
+<script src="https://img.shunking.cn/site/js/common.js"></script> 
+<script src="https://img.shunking.cn/site/js/script.js"></script>
+</body>
+</html>
